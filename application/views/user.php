@@ -12,7 +12,7 @@
 	
 	 foreach($users as $a) {
 	?>	 
-		<li><?php echo strtoupper($a["firstname"]); ?> <?php echo $a["lastname"] ?></li>
+		<li><?php echo strtoupper($a->firstname); ?> <?php echo $a->lastname ?></li>
 	
 	<?php 
 	}
