@@ -1,13 +1,12 @@
 <?php 
 
-class User_data extends CI_Model {
+class Userdata extends CI_Model {
 	
-	public function getUser() {
-		
-		return[
-		   ["FirstName" => "Saurav" , "LastName" => "Bisht"];
-		]
-		
+	public function getUser() {	
+	  return[
+		["firstname" => "saurav","lastname" => "Bisht"],
+		["firstname" => "gaurav","lastname" => "Bisht"]
+		];
 	}
 	
 }
